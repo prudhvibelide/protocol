@@ -1,6 +1,6 @@
 // Offline support. Only the app's own files and its fonts/chart library are cached.
 // Requests to GitHub and the food databases are never touched or stored.
-const CACHE = 'protocol-v2';
+const CACHE = 'protocol-v4';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 const ASSET_HOSTS = ['cdn.jsdelivr.net', 'fonts.googleapis.com', 'fonts.gstatic.com'];
 
